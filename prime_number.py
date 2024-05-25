@@ -10,6 +10,7 @@ def calc(x):
         if x < 0:
             raise ValueError
         elif x < 2:
+
             print("素数ではありません")
             return
         for i in range(2, int(x ** 0.5) + 1):
