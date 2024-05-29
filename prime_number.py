@@ -5,6 +5,7 @@ b = input("bの値を入力: ")
 
 
 def calc(x):
+
     try:
         x = int(x)
         if x < 0:
