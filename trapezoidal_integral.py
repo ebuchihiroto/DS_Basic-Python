@@ -14,7 +14,7 @@ def f2(x):
 def f3(x):
     return (pi ** 0.5) * exp( - (x ** 2 ))
 
-def integral(f, a = 0, b =0, n = 100):
+def integral(f, a = 0, b =1, n = 100):
     h = (b - a) / n
     result = 0
     for i in range(n):
