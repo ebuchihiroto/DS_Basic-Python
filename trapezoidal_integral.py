@@ -12,9 +12,9 @@ def f2(x):
     return 4 / (1 + x ** 2)
 
 def f3(x):
-    return (x ** 0.5) * exp( - (x ** 2 ))
+    return (pi ** 0.5) * exp( - (x ** 2 ))
 
-def integral(f, a, b, n):
+def integral(f, a = 0, b =0, n = 100):
     h = (b - a) / n
     result = 0
     for i in range(n):

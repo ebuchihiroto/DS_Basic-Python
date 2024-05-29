@@ -10,15 +10,12 @@ def calc(x):
         if x < 0:
             raise ValueError
         elif x < 2:
-
-            print("素数ではありません")
-            return
+            return False
         for i in range(2, int(x ** 0.5) + 1):
             if x % i == 0:
-                print("素数ではありません")
-                break
+                return False
         else:
-            print("素数です")
+            return True
 
     except ValueError:
         print("正の整数を入力してください")

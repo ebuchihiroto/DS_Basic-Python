@@ -13,11 +13,7 @@ def euclid(x, y):
 
 
 def calc(a, b):
-    euclid(a, b)
-    if euclid(a ,b) == 1:
-        return True
-    else:
-        return False
+    return euclid(a, b) == 1
 
 print(euclid(int(a), int(b)))
 calc(int(a), int(b))
