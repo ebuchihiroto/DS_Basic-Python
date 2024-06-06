@@ -6,6 +6,7 @@ text = """
 # TODO
 
 
+
 text = text.replace(",", "").replace(".", "")
 words = text.split()
 num = ""
