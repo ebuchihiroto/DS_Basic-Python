@@ -7,6 +7,7 @@ text = """
 
 
 
+text = text.replace(",", "").replace(".", "")
 words = text.split()
 num = ""
 for i in range(len(words)):
